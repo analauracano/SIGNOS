@@ -1,0 +1,174 @@
+/* ===== Fundo animado com gradiente e estrelas ===== */
+body {
+    background: linear-gradient(135deg, #2e0249, #570a57, #a91079, #f806cc);
+    background-size: 300% 300%;
+    animation: gradientShift 12s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+/* ===== Título ===== */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffe66d;
+    font-size: 2.8rem;
+    text-shadow: 0 0 10px rgba(255, 230, 109, 0.8),
+                 0 0 20px rgba(255, 230, 109, 0.6);
+    animation: fadeInDown 1s ease;
+}
+
+/* ===== Container principal ===== */
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    animation: fadeInUp 1.2s ease;
+}
+
+/* ===== Inputs e labels ===== */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #ffe66d;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffe66d;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #f8d210;
+    box-shadow: 0 0 8px rgba(248, 210, 16, 0.7);
+    outline: none;
+}
+
+/* ===== Botões ===== */
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #a91079, #f806cc);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #f806cc, #a91079);
+    box-shadow: 0 0 12px rgba(248, 6, 204, 0.8);
+}
+
+/* ===== Cards de resultado ===== */
+.card {
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(255, 255, 255, 0.25);
+}
+
+/* ===== Ícone pulsante ===== */
+.card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card h2::before {
+    content: attr(data-icone);
+    animation: pulse 2s infinite;
+    display: inline-block;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.8; }
+}
+
+.card p {
+    font-size: 1.1rem;
+}
+
+/* ===== Gradientes por signo ===== */
+.aries { background: linear-gradient(135deg, #FF4E50, #F9D423); }
+.touro { background: linear-gradient(135deg, #1D976C, #93F9B9); }
+.gemeos { background: linear-gradient(135deg, #FFB347, #FFCC33); }
+.cancer { background: linear-gradient(135deg, #6A82FB, #FC5C7D); }
+.leao { background: linear-gradient(135deg, #F7971E, #FFD200); }
+.virgem { background: linear-gradient(135deg, #56CCF2, #2F80ED); }
+.libra { background: linear-gradient(135deg, #FF6FD8, #3813C2); }
+.escorpiao { background: linear-gradient(135deg, #EE0979, #FF6A00); }
+.sagitario { background: linear-gradient(135deg, #43C6AC, #191654); }
+.capricornio { background: linear-gradient(135deg, #8E2DE2, #4A00E0); }
+.aquario { background: linear-gradient(135deg, #00F260, #0575E6); }
+.peixes { background: linear-gradient(135deg, #7F00FF, #E100FF); }
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* ===== Animações ===== */
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

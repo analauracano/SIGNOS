@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<signos>
+    <signo>
+        <dataInicio>21/03</dataInicio>
+        <dataFim>20/04</dataFim>
+        <signoNome>Áries</signoNome>
+        <icone>♈</icone>
+        <descricao>Áries é cheio de energia, iniciativa e coragem para enfrentar desafios.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>21/04</dataInicio>
+        <dataFim>20/05</dataFim>
+        <signoNome>Touro</signoNome>
+        <icone>♉</icone>
+        <descricao>Touro valoriza estabilidade, conforto e tem uma personalidade confiável e firme.</descricao>
+    </signo>
+  
+    <signo>
+        <dataInicio>21/05</dataInicio>
+        <dataFim>20/06</dataFim>
+        <signoNome>Gêmeos</signoNome>
+        <icone>♊</icone>
+        <descricao>Gêmeos é comunicativo, curioso e se adapta facilmente a novas situações.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>21/06</dataInicio>
+        <dataFim>22/07</dataFim>
+        <signoNome>Câncer</signoNome>
+        <icone>♋</icone>
+        <descricao>Câncer é sensível, carinhoso e valoriza muito a família e os laços afetivos.</descricao>
+    </signo>
+    
+    <signo>
+        <dataInicio>23/07</dataInicio>
+        <dataFim>22/08</dataFim>
+        <signoNome>Leão</signoNome>
+        <icone>♌</icone>
+        <descricao>Leão é confiante, criativo e gosta de estar no centro das atenções.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>23/08</dataInicio>
+        <dataFim>22/09</dataFim>
+        <signoNome>Virgem</signoNome>
+        <icone>♍</icone>
+        <descricao>Virgem é detalhista, prático e busca sempre a perfeição no que faz.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>23/09</dataInicio>
+        <dataFim>22/10</dataFim>
+        <signoNome>Libra</signoNome>
+        <icone>♎</icone>
+        <descricao>Libra preza pela harmonia, equilíbrio e tem grande senso de justiça.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>23/10</dataInicio>
+        <dataFim>21/11</dataFim>
+        <signoNome>Escorpião</signoNome>
+        <icone>♏</icone>
+        <descricao>Escorpião é intenso, determinado e vive suas emoções de forma profunda.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>22/11</dataInicio>
+        <dataFim>21/12</dataFim>
+        <signoNome>Sagitário</signoNome>
+        <icone>♐</icone>
+        <descricao>Sagitário adora aventuras, liberdade e busca constantemente novos horizontes.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>22/12</dataInicio>
+        <dataFim>20/01</dataFim>
+        <signoNome>Capricórnio</signoNome>
+        <icone>♑</icone>
+        <descricao>Capricórnio é disciplinado, ambicioso e trabalha duro para conquistar seus objetivos.</descricao>
+    </signo>
+    
+    <signo>
+        <dataInicio>21/01</dataInicio>
+        <dataFim>18/02</dataFim>
+        <signoNome>Aquário</signoNome>
+        <icone>♒</icone>
+        <descricao>Aquário é visionário, original e valoriza a liberdade de pensamento.</descricao>
+    </signo>
+   
+    <signo>
+        <dataInicio>19/02</dataInicio>
+        <dataFim>20/03</dataFim>
+        <signoNome>Peixes</signoNome>
+        <icone>♓</icone>
+        <descricao>Peixes é sonhador, empático e possui uma forte ligação com o mundo emocional.</descricao>
+    </signo>
+</signos>
